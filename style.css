@@ -1,0 +1,355 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+ul
+{
+    list-style: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 10%;
+}
+nav ul
+{
+    display: flex;
+}
+nav ul li a
+{
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav ul li a:hover
+{
+    background-color: bisque;
+    color: white;
+    border-radius: 20px;
+}
+
+.logo
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#home
+{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.home p
+{
+    line-height: 20px;
+    margin: 20px 0px 10px;
+}
+
+.home p:nth-child(1)
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+.home p:nth-child(3)
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    letter-spacing: none;
+    font-size: 15px;
+}
+
+.home
+{
+    position: absolute;
+    left: 2%;
+    right: 15%;
+    transform: translate(10%, 20%);
+}
+
+.gambar
+{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 80%;
+    top: 30%;
+    transform: translateX(-40%);
+}
+
+.about
+{
+     height: 55vh;
+     background-color: #e1dbdb;
+     padding: 2% 10% 10%;
+}
+
+.about-desc
+{
+    margin: 50px 50px;
+}
+
+.about-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-desc p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;    
+    text-align: center;   
+}
+
+.row
+{
+    margin: 30px;
+    padding: 5px;
+    display: flex;
+}
+
+.row .column h2
+{
+    text-align: center;
+}
+.row .column p
+{
+    text-align: center;
+
+}
+
+.column
+{
+    flex: 50%;
+    padding: 30px;
+    height: 200px;
+}
+
+/* Skill*/
+.skill
+{
+    height: 65vh;
+    background-color: white;
+    padding: 2% 10% 10%;
+}
+
+.skill-desc
+{
+    margin: 50px 50px;
+}
+
+.skill-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.skill-desc p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;    
+    text-align: center;   
+}
+
+.box-container
+{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    
+    justify-content: space-around;
+}
+
+.box-1, .box-2, .box-3
+{
+    width: 350px;
+    height: 320px;
+    box-shadow: 2px 12px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    color: red;
+    align-items: center;
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+.box-1 span, .box-2 span, .box-3 span
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    background-color: bisque;
+    color: red;
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.box-1 p:nth-child(3), .box-2 p:nth-child(3), .box-3 p:nth-child(3)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8f8f8f;
+    width: 50px;
+    margin: 0px 0px 50px 0px;
+}
+
+/* contact */
+
+.contact
+{
+    height: 75vh;
+    background-color: #e1dbdb;
+    padding: 2% 10% 10%;
+}
+
+.contact-desc
+{
+    margin: 50px 50px;
+}
+
+.contact-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #1d1d1d;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.contact-desc p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;    
+    text-align: center;   
+}
+.contact-desc p:nth-child(3)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;    
+    text-align: center;   
+}
+
+input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+input[type=submit]
+{
+    background-color: rgb(26, 185, 162);
+    color: white;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+input[type=submit]:hover
+{
+    background-color: grey;
+}
+
+input:active
+{
+    transform: scale(2.5);
+}
+/*footer*/
+
+footer
+{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(236, 222, 69, 0.911);
+}
+footer p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p:nth-child(1)
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+footer p:nth-child(2)
+{
+    font-size: 15px;
+    color: #000000;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.social-icons
+{
+    margin: 20px 0px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.social-icons a
+{
+    width: 47px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.social-icons a:hover
+{
+    background-color: grey;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.5);
+}
